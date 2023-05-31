@@ -1,8 +1,8 @@
 import React from "react";
+
 import UsersList from "../user_components/UsersList";
 
 const Users = () => {
-  // * dummy data, men denna ska skickas in då backend kopplas
   const USERS = [
     {
       id: "u1",
@@ -15,4 +15,5 @@ const Users = () => {
 
   return <UsersList items={USERS} />;
 };
+
 export default Users;
